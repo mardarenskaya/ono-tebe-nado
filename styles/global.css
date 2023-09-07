@@ -5,8 +5,9 @@
 }
 
 body {
-max-width: 1440px;
-font-family: Raleway, sans-serif;
+  max-width: 1440px;
+  height: 2844px;
+  margin: auto;
 }
 
 h1,
