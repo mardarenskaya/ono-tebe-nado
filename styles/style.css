@@ -23,6 +23,7 @@
 	color: #000;
 	font-size: 18px;
 	font-style: normal;
+	outline-width: 1px;
 }
 
 .header__links-list-item_no-bullit {
@@ -53,16 +54,15 @@
 .address {
 	text-underline-position: under;
 	color: #000;
+	max-width: 240px;
 	font-family: 'Raleway', 'Arial', sans-serif;
 	font-size: 18px;
 	font-style: normal;
 	font-weight: 400;
-	line-height: 24.3px;
-	/* 135% */
-	justify-self: end;
+	line-height: 24.3px; /* 135% */
 }
 
-.header_address {
+.header__address {
 	justify-self: end;
 }
 
@@ -351,6 +351,6 @@
 	height: 48px;
 }
 
-.footer_address {
-	justify-self: flex-start;
+.footer__address {
+	justify-self: start;
 }
